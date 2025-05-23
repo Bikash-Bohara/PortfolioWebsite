@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Bikash Bohara - Professional Portfolio"/>
+  <title>Bikash Bohara - Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resources">Downloads</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="intro">
+      <img src="images/bikash.jpg" alt="Bikash Bohara" class="profile-img"/>
+      <h1>Hi, I'm Bikash Bohara</h1>
+      <p>A passionate Web Developer with a focus on building innovative and impactful web applications.</p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>I am a dedicated web developer with a deep passion for coding and problem-solving. I have over a year of experience in building scalable and efficient web applications using modern web technologies like React, Node.js, and Django. I am constantly improving my skills and exploring new technologies to enhance my development toolkit.</p>
+    <p>Outside of work, I enjoy learning about AI, working on personal projects, and contributing to open-source software.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Vue.js</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js, Express</li>
+          <li>APIs & RESTful Services</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <ul>
+          <li>MySQL</li>
+           <li>PostgreSQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>DevOps</h3>
+        <ul>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>Github</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Featured Projects</h2>
+    
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>This is the portfolio website you're currently viewing! It was built using HTML, CSS, and JavaScript, demonstrating my front-end skills.</p>
+      <a href="https://bikashbohara.com" target="_blank">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Project 2: Adhunik Krishi</h3>
+      <p>Adhunik Krishi is revolutionizing the agricultural landscape by providing a comprehensive platform for modern farmers. Our solution simplifies seed selection based on precise location data, offers convenient tool rental and purchase services, and facilitates seamless collaboration with agricultural experts. Looking Ahead: Exciting developments await as we integrate AI for disease diagnosis and feedback, enhancing efficiency and productivity.</p>
+      <a href="https://bikashbohara.com" target="_blank">Live Demo</a>
+    </div>
+  </section>
+
+  <!-- Downloads & Resources Section -->
+  <section id="resources" class="resources-section">
+    <h2>Downloads & Resources</h2>
+    <p>You can view or download my latest resume and other documents from the links below:</p>
+    <ul>
+      <li><a href="https://drive.google.com/drive/my-drive  " target="_blank" class="resource-link">📄 Download</a></li>
+      
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Bikash Bohara. All Rights Reserved.</p>
+    <p>
+      <a href="https://www.linkedin.com/in/bikash-bohara-151158289" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Bikash-Bohara" target="_blank">GitHub</a> |
+
+      <a href="mailto:bikashbohara2003@gmail.com">Email</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
